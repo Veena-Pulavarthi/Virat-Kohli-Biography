@@ -5,33 +5,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        body{
+            background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTM9GYBoF18jQ17z2kLwTE9Z6E9xTj1WZIKqQ&s");
+            background-size: cover;
+        }
+
+    </style>
 </head>
 
 <body>
     <h1 align="center">Registartion Form</h1>
+    <center>
     <form action="./login.html">
 
-        <p><b>Name </b><input type="text" name="name" placeholder="Enter Your Name" /></p>
+        <p><input type="text" name="name" placeholder="Enter Name" /></p>
 
 
-        <p><b>Email </b><input type="email" name="email" placeholder="Enter Your Email" /></p>
+        <p><input type="email" name="email" placeholder="Enter Email" /></p>
 
 
-        <p><b>Password </b><input type="password" name="password" placeholder="Enter Your Password" /></p>
+        <p><input type="password" name="password" placeholder="Enter Password" /></p>
 
 
-        <p><b>Confirm Password </b><input type="password" name="password" placeholder="Enter Your Confirm Password" /></p>
+        <p><input type="password" name="password" placeholder="Enter Confirm Password" /></p>
 
 
-        <p><b>Mobile Number </b><input type="number" name="number" placeholder="Enter Your Mobile Number" /></p>
+        <p><input type="number" name="number" placeholder="Enter Mobile Number" /></p>
 
 
-        <p><b>Gender </b> <input type="radio" name="gender" />Male
+        <p><input type="radio" name="gender" />Male
             <input type="radio" name="gender" />Female
         </p>
 
         
-        <p><b>Education </b>
+        <p>
             <input type="checkbox" />10th
             <input type="checkbox" />Inter
             <input type="checkbox" />Diploma
@@ -39,10 +47,10 @@
         </p>
 
         
-        <p><b>File </b> <input type="file"></p>
+        <p><input type="file"></p>
 
         
-        <p><b>City </b> <select>
+        <p><select>
                 <option value="">Select Your City</option>
                 <option value="">Vijayawada</option>
                 <option value="">Hyderabad</option>
@@ -51,9 +59,12 @@
                 <option value="">Chennai</option>
                 <option value="">Pune</option>
             </select></p>
-        <p><button>Submit Form</button></p>
+        <p style="cursor: pointer;"><button>Submit Form</button></p>
 
     </form>
+    
+</center>
+    
 </body>
 
 </html>
